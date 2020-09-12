@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Dropdown from './Dropdown';
 import Convert from './Convert';
 
@@ -12,13 +12,42 @@ const options = [
       value: 'ar'
     },
     {
+      label: 'Czech',
+      value: 'cs'
+    },
+    {
+      label: 'Dutch',
+      value: 'nl'
+    },
+    {
+      label: 'Greek',
+      value: 'el'
+    },
+    {
+      label: 'German',
+      value: 'de'
+    },
+    {
       label: 'Hindi',
       value: 'hi'
     },
     {
-        label: 'Dutch',
-        value: 'nl'
-      }
+      label: 'Italian',
+      value: 'it'
+    },
+    {
+      label: 'Irish',
+      value: 'ga'
+    },
+    {
+      label: 'Japanese',
+      value: 'ja'
+    },
+    {
+      label: 'Persian',
+      value: 'fa'
+    }
+
   ];
 
 const Translate = ()=>{
